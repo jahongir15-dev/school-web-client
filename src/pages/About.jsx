@@ -1,12 +1,16 @@
+import about from "../assets/img/about.jpg"
+
 export const About = () => {
-    return(
+
+    return (
         <>
+
             {/*About Start*/}
             <div className="container-fluid py-5">
                 <div className="container py-5">
                     <div className="row align-items-center">
                         <div className="col-lg-5">
-                            <img className="img-fluid rounded mb-4 mb-lg-0" src="img/about.jpg" alt="404"/>
+                            <img className="img-fluid rounded mb-4 mb-lg-0" src={about} alt="404"/>
                         </div>
                         <div className="col-lg-7">
                             <div className="text-left mb-4">
@@ -65,98 +69,11 @@ export const About = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-lg-5">
-                            <div className="card border-0">
-                                <div className="card-header bg-light text-center p-4">
-                                    <h1 className="m-0">Sign Up Now</h1>
-                                </div>
-                                <div className="card-body rounded-bottom bg-primary p-5">
-                                    <form>
-                                        <div className="form-group">
-                                            <input type="text" className="form-control border-0 p-4"
-                                                   placeholder="Your name"
-                                                   required="required"/>
-                                        </div>
-                                        <div className="form-group">
-                                            <input type="email" className="form-control border-0 p-4"
-                                                   placeholder="Your email"
-                                                   required="required"/>
-                                        </div>
-                                        <div className="form-group">
-                                            <select className="custom-select border-0 px-4" style={{height: "47px"}}>
-                                                <option selected>Select a course</option>
-                                                <option value="1">Course 1</option>
-                                                <option value="2">Course 1</option>
-                                                <option value="3">Course 1</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <button className="btn btn-dark btn-block border-0 py-3" type="submit">Sign
-                                                Up
-                                                Now
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
             {/*Registration End*/}
 
-            {/*Testimonial Start*/}
-            <div className="container-fluid py-5">
-                <div className="container py-5">
-                    <div className="text-center mb-5">
-                        <h5 className="text-primary text-uppercase mb-3" style={{letterSpacing: "5px"}}>Testimonial</h5>
-                        <h1>What Say Our Students</h1>
-                    </div>
-                    <div className="row justify-content-center">
-                        <div className="col-lg-8">
-                            <div className="owl-carousel testimonial-carousel">
-                                <div className="text-center">
-                                    <i className="fa fa-3x fa-quote-left text-primary mb-4"/>
-                                    <h4 className="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum
-                                        est
-                                        eos. Rebum
-                                        elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet
-                                        eirmod eos
-                                        labore diam</h4>
-                                    <img className="img-fluid mx-auto mb-3" src="img/testimonial-1.jpg" alt="404"/>
-                                    <h5 className="m-0">Client Name</h5>
-                                    <span>Profession</span>
-                                </div>
-                                <div className="text-center">
-                                    <i className="fa fa-3x fa-quote-left text-primary mb-4"/>
-                                    <h4 className="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum
-                                        est
-                                        eos. Rebum
-                                        elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet
-                                        eirmod eos
-                                        labore diam</h4>
-                                    <img className="img-fluid mx-auto mb-3" src="img/testimonial-2.jpg" alt="404"/>
-                                    <h5 className="m-0">Client Name</h5>
-                                    <span>Profession</span>
-                                </div>
-                                <div className="text-center">
-                                    <i className="fa fa-3x fa-quote-left text-primary mb-4"/>
-                                    <h4 className="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum
-                                        est
-                                        eos. Rebum
-                                        elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet
-                                        eirmod eos
-                                        labore diam</h4>
-                                    <img className="img-fluid mx-auto mb-3" src="img/testimonial-3.jpg" alt="404"/>
-                                    <h5 className="m-0">Client Name</h5>
-                                    <span>Profession</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/*Testimonial End*/}
         </>
     )
 }

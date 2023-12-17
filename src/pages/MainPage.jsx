@@ -240,12 +240,9 @@ export const MainPage = () => {
                                             <img className="img-fluid" src={APP_API.downloadPhoto + item.photoId}
                                                  alt="404"/>
                                             <div className="team-social">
-                                                <a className="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    className="fab fa-twitter"/></a>
-                                                <a className="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    className="fab fa-facebook-f"/></a>
-                                                <a className="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    className="fab fa-linkedin-in"/></a>
+                                                <h6 className={"text-warning mr-5"}>Telefon
+                                                    <h4 className={"text-white ml-5"}>{item.phoneNumber}</h4>
+                                                </h6>
                                             </div>
                                         </div>
                                         <div className="bg-secondary p-4">
