@@ -1,4 +1,5 @@
 import about from "../assets/img/about.jpg"
+import {Link} from "react-router-dom";
 
 export const About = () => {
 
@@ -16,21 +17,16 @@ export const About = () => {
                             <div className="text-left mb-4">
                                 <h5 className="text-primary text-uppercase mb-3" style={{letterSpacing: "5px"}}>Biz
                                     haqimizda</h5>
-                                <h1>Innovative Way To Learn</h1>
+                                <h1>Biz bilan oson o'rganing</h1>
                             </div>
-                            <p>Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet
-                                voluptua duo
-                                dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam
-                                sanctus
-                                gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit
-                                dolor clita
-                                consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea
-                                labore, dolor
-                                justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr dolores justo
-                                aliquyam
-                                ipsum stet</p>
-                            <a href="" className="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn
-                                More</a>
+                            <p>Kitob tumanidagi eng kuchli maktablardan biri bizning maktab hisoblanadi.
+                                Bizning maktab ko'p yillardan beri o'z faoliyatini olib bormoqda. Maktab 1000 dan ortiq
+                                o'quvchilarga sifati bilim olishiga imkoniyatlar eshigini ochmoqda. Maktabimizda 50 dan
+                                ortiq malakali ustoz va murabiyylar sifatli bilim berish uchun harakat qiladi.
+                                Maktabimiz sifatli bilib berishga doim harakat qiladi
+                            </p>
+                            <Link to={""} className="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ko'proq
+                                biling </Link>
                         </div>
                     </div>
                 </div>
@@ -38,34 +34,27 @@ export const About = () => {
             {/*About End*/}
 
             {/*Registration Start*/}
-            <div className="container-fluid bg-registration py-5" style={{margin: " 90px 0"}}>
+            <div className="container-fluid bg-registration py-5" style={{margin: " 90px 0"}} x>
                 <div className="container py-5">
                     <div className="row align-items-center">
                         <div className="col-lg-7 mb-5 mb-lg-0">
                             <div className="mb-4">
-                                <h5 className="text-primary text-uppercase mb-3" style={{letterSpacing: "5px"}}>Need Any
-                                    Courses</h5>
-                                <h1 className="text-white">30% Off For New Students</h1>
+                                <h1 className="text-primary text-uppercase mb-3" style={{letterSpacing: "5px"}}>Maktab
+                                    haqida</h1>
                             </div>
-                            <p className="text-white">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo
-                                dolor
-                                lorem ipsum
-                                ut sed eos,
-                                ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea
-                                ipsum est
-                                dolor</p>
+                            <p className="text-white">
+                                Maktabimiz 1000 dan ortiq o'quvchilarga talim berib kelgan va bundan keyin ham bilib
+                                berishda davom etadi. Maktab o'quvchilarining 15% dan ortig'i oliy bilim yurtlarida
+                                o'qishga kirgan</p>
                             <ul className="list-inline text-white m-0">
-                                <li className="py-2"><i className="fa fa-check text-primary mr-3"/>Labore eos amet
-                                    dolor amet
-                                    diam
+                                <li className="py-2"><i className="fa fa-check text-primary mr-3"/>
+                                    1000 dan ortiq o'quvchilar
                                 </li>
-                                <li className="py-2"><i className="fa fa-check text-primary mr-3"/>Etsea et sit dolor
-                                    amet
-                                    ipsum
+                                <li className="py-2"><i className="fa fa-check text-primary mr-3"/>
+                                    50 dan ortiq malakali o'qituvchilar
                                 </li>
-                                <li className="py-2"><i className="fa fa-check text-primary mr-3"/>Diam dolor diam
-                                    elitripsum
-                                    vero.
+                                <li className="py-2"><i className="fa fa-check text-primary mr-3"/>
+                                    Sifatli talim tizimi
                                 </li>
                             </ul>
                         </div>
@@ -73,6 +62,7 @@ export const About = () => {
                 </div>
             </div>
             {/*Registration End*/}
+
 
         </>
     )

@@ -40,7 +40,7 @@ export const Footer = () => {
                         </div>
                     </div>
                     <div className="col-lg-5 col-md-12 mb-5">
-                        <h5 className="text-primary text-uppercase mb-4" style={{letterSpacing: "5px"}}>Newsletter</h5>
+                        <h5 className="text-primary text-uppercase mb-4" style={{letterSpacing: "5px"}}>Qo'shimcha</h5>
                         <p>Kitob tumanidagi eng kuchli maktablardan biri bizning maktab hisoblanadi.
                             Bizning maktab ko'p yillardan beri o'z faoliyatini olib bormoqda. Maktab 1000 dan ortiq
                             o'quvchilarga sifati bilim olishiga imkoniyatlar eshigini ochmoqda.</p>

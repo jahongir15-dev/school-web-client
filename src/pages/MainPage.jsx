@@ -86,26 +86,24 @@ export const MainPage = () => {
             {/*About End*/}
 
             {/*Registration Start*/}
-            <div className="container-fluid bg-registration py-5" style={{margin: " 90px 0"}}>
+            <div className="container-fluid bg-registration py-5" style={{margin: " 90px 0"}} x>
                 <div className="container py-5">
                     <div className="row align-items-center">
                         <div className="col-lg-7 mb-5 mb-lg-0">
                             <div className="mb-4">
-                                <h5 className="text-primary text-uppercase mb-3" style={{letterSpacing: "5px"}}>Need
-                                    Any
-                                    Courses</h5>
-                                <h1 className="text-white">30% Off For New Students</h1>
+                                <h1 className="text-primary text-uppercase mb-3" style={{letterSpacing: "5px"}}>Maktab
+                                    haqida</h1>
                             </div>
                             <p className="text-white">
-                                Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed
-                                eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam
-                                sea ipsum est dolor</p>
+                                Maktabimiz 1000 dan ortiq o'quvchilarga talim berib kelgan va bundan keyin ham bilib
+                                berishda davom etadi. Maktab o'quvchilarining 15% dan ortig'i oliy bilim yurtlarida
+                                o'qishga kirgan</p>
                             <ul className="list-inline text-white m-0">
                                 <li className="py-2"><i className="fa fa-check text-primary mr-3"/>
-                                    Oliy malakali o'qituvchilar
+                                    1000 dan ortiq o'quvchilar
                                 </li>
                                 <li className="py-2"><i className="fa fa-check text-primary mr-3"/>
-                                    O'qituvchilar bilan doimiy aloqa
+                                    50 dan ortiq malakali o'qituvchilar
                                 </li>
                                 <li className="py-2"><i className="fa fa-check text-primary mr-3"/>
                                     Sifatli talim tizimi
@@ -116,7 +114,6 @@ export const MainPage = () => {
                 </div>
             </div>
             {/*Registration End*/}
-
 
             {/*Team Start*/}
             <div className="container-fluid py-5">
