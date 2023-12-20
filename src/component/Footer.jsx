@@ -25,8 +25,7 @@ export const Footer = () => {
                                 </div>
                             </div>
                             <div className="col-md-6 mb-5">
-                                <h5 className="text-primary text-uppercase mb-4" style={{letterSpacing: "5px"}}>Biznig
-                                    a'zolar</h5>
+                                <h5 className="text-primary text-uppercase mb-4" style={{letterSpacing: "5px"}}>Bo'limlar</h5>
                                 <div className="d-flex flex-column justify-content-start">
                                     <Link to={"/teacher"} className="text-white mb-2"><i
                                         className="fa fa-angle-right mr-2"/>O'qituvchilar</Link>
@@ -42,8 +41,9 @@ export const Footer = () => {
                     </div>
                     <div className="col-lg-5 col-md-12 mb-5">
                         <h5 className="text-primary text-uppercase mb-4" style={{letterSpacing: "5px"}}>Newsletter</h5>
-                        <p>Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor.
-                            Accu kasd sed ea duo ipsum. Dolor duo eirmod sea justo no lorem est diam</p>
+                        <p>Kitob tumanidagi eng kuchli maktablardan biri bizning maktab hisoblanadi.
+                            Bizning maktab ko'p yillardan beri o'z faoliyatini olib bormoqda. Maktab 1000 dan ortiq
+                            o'quvchilarga sifati bilim olishiga imkoniyatlar eshigini ochmoqda.</p>
                         <div className="w-100">
                         </div>
                     </div>
