@@ -14,8 +14,8 @@ export const About = () => {
                         </div>
                         <div className="col-lg-7">
                             <div className="text-left mb-4">
-                                <h5 className="text-primary text-uppercase mb-3" style={{letterSpacing: "5px"}}>About
-                                    Us</h5>
+                                <h5 className="text-primary text-uppercase mb-3" style={{letterSpacing: "5px"}}>Biz
+                                    haqimizda</h5>
                                 <h1>Innovative Way To Learn</h1>
                             </div>
                             <p>Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet

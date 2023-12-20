@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 export const Footer = () => {
     return (
         <>
@@ -6,8 +8,8 @@ export const Footer = () => {
                     <div className="col-lg-7 col-md-12">
                         <div className="row">
                             <div className="col-md-6 mb-5">
-                                <h5 className="text-primary text-uppercase mb-4" style={{letterSpacing: "5px"}}>Get In
-                                    Touch</h5>
+                                <h5 className="text-primary text-uppercase mb-4" style={{letterSpacing: "5px"}}>Bu
+                                    yerdan toping</h5>
                                 <p><i className="fa fa-map-marker-alt mr-2"/>123 Street, New York, USA</p>
                                 <p><i className="fa fa-phone-alt mr-2"/>+012 345 67890</p>
                                 <p><i className="fa fa-envelope mr-2"/>info@example.com</p>
@@ -23,16 +25,17 @@ export const Footer = () => {
                                 </div>
                             </div>
                             <div className="col-md-6 mb-5">
-                                <h5 className="text-primary text-uppercase mb-4" style={{letterSpacing: "5px"}}>Our
-                                    Courses</h5>
+                                <h5 className="text-primary text-uppercase mb-4" style={{letterSpacing: "5px"}}>Biznig
+                                    a'zolar</h5>
                                 <div className="d-flex flex-column justify-content-start">
-                                    <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"/>Web
-                                        Design</a>
-                                    <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"/>Apps
-                                        Design</a>
-                                    <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"/>Marketing</a>
-                                    <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"/>Research</a>
-                                    <a className="text-white" href="#"><i className="fa fa-angle-right mr-2"/>SEO</a>
+                                    <Link to={"/teacher"} className="text-white mb-2"><i
+                                        className="fa fa-angle-right mr-2"/>O'qituvchilar</Link>
+                                    <Link to={"/course"} className="text-white mb-2"><i
+                                        className="fa fa-angle-right mr-2"/>O'quvchilar</Link>
+                                    <Link to={"/partner"} className="text-white mb-2"><i
+                                        className="fa fa-angle-right mr-2"/>Hamkorlar</Link>
+                                    <Link to={"/items"} className="text-white mb-2"><i
+                                        className="fa fa-angle-right mr-2"/>Ko'rgazmalar</Link>
                                 </div>
                             </div>
                         </div>
@@ -42,13 +45,6 @@ export const Footer = () => {
                         <p>Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor.
                             Accu kasd sed ea duo ipsum. Dolor duo eirmod sea justo no lorem est diam</p>
                         <div className="w-100">
-                            <div className="input-group">
-                                <input type="text" className="form-control border-light" style={{padding: "30px"}}
-                                       placeholder="Your Email Address"/>
-                                <div className="input-group-append">
-                                    <button className="btn btn-primary px-4">Sign Up</button>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -58,7 +54,7 @@ export const Footer = () => {
                 <div className="row">
                     <div className="col-lg-6 text-center text-md-left mb-3 mb-md-0">
                         <p className="m-0 text-white">&copy; <a href="#">Domain Name</a>. All Rights Reserved. Designed
-                            by <a href="https://htmlcodex.com">HTML Codex</a>
+                            by <a href="">uTeam Jakhongir</a>
                         </p>
                     </div>
                     <div className="col-lg-6 text-center text-md-right">
