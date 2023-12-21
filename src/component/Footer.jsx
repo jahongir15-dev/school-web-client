@@ -31,7 +31,7 @@ export const Footer = () => {
                                         className="fa fa-angle-right mr-2"/>O'qituvchilar</Link>
                                     <Link to={"/course"} className="text-white mb-2"><i
                                         className="fa fa-angle-right mr-2"/>O'quvchilar</Link>
-                                    <Link to={"/partner"} className="text-white mb-2"><i
+                                    <Link to={"/blog"} className="text-white mb-2"><i
                                         className="fa fa-angle-right mr-2"/>Hamkorlar</Link>
                                     <Link to={"/items"} className="text-white mb-2"><i
                                         className="fa fa-angle-right mr-2"/>Ko'rgazmalar</Link>

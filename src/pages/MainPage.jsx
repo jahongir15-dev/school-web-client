@@ -78,7 +78,7 @@ export const MainPage = () => {
                                 ortiq malakali ustoz va murabiyylar sifatli bilim berish uchun harakat qiladi.
                                 Maktabimiz sifatli bilib berishga doim harakat qiladi
                             </p>
-                            <Link to={""} className="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ko'proq biling </Link>
+                            <Link to={"/about"} className="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ko'proq biling </Link>
                         </div>
                     </div>
                 </div>
@@ -164,7 +164,8 @@ export const MainPage = () => {
                         {perfect.map((item) => (
                             <div className="col-lg-4 col-md-6 mb-4">
                                 <div className="rounded overflow-hidden mb-2">
-                                    <img className="img-fluid" src={APP_API.downloadPhoto + item.photoId} alt="404"/>
+                                    <img style={{width: "550px",height:"430px", aspectRatio: "3/4"}} className="img-fluid"
+                                         src={APP_API.downloadPhoto + item.photoId}/>
                                     <div className="bg-secondary p-4">
                                         <div className="d-flex justify-content-between mb-3">
                                             <h6 className="m-0"><i
@@ -231,7 +232,8 @@ export const MainPage = () => {
                         {partners.map((item) => (
                             <div className="col-lg-4 col-md-6 mb-4">
                                 <div className="rounded overflow-hidden mb-2">
-                                    <img className="img-fluid" src={APP_API.downloadPhoto + item.photoId} alt="404"/>
+                                    <img style={{width: "550px",height:"370px"}} className="img-fluid"
+                                         src={APP_API.downloadPhoto + item.photoId}/>
                                     <div className="bg-secondary p-4">
                                         <h2 className="h5">{item.name}</h2>
                                         <div className="border-top mt-4 pt-4">

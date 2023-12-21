@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import {LOG_URL} from "../connection/BaseUrl";
 
 export const NavBar = () => {
     return (
@@ -31,14 +32,13 @@ export const NavBar = () => {
                                         <Link to={"#"} className="nav-link dropdown-toggle"
                                               data-toggle="dropdown">Bo'lim</Link>
                                         <div className="dropdown-menu rounded-0 m-0">
-                                            <Link to={"/course"} className="nav-item nav-link">O'quvchilar</Link>
-                                            <Link to={"/blog"} className="dropdown-item">Blog List</Link>
-                                            <Link to={"/single"} className="dropdown-item">Blog Detail</Link>
+                                            <Link to={"/course"} className="dropdown-item">O'quvchilar</Link>
+                                            <Link to={"/blog"} className="dropdown-item">Hamkorlar</Link>
+                                            <Link to={"/project"} className="dropdown-item">Amaliy ishlar</Link>
                                         </div>
                                     </div>
-                                    <Link to={"/contact"} className="nav-item nav-link">Bog'lanish</Link>
                                 </div>
-                                <Link to={""} className="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block">Log
+                                <Link to={LOG_URL} className="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block">Log
                                     in</Link>
                             </div>
                         </nav>

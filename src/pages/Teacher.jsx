@@ -30,7 +30,7 @@ export const Teacher = () => {
                     <div class="d-flex flex-column justify-content-center" style={{minHeight: "300px"}}>
                         <h3 class="display-4 text-white text-uppercase">O'qituvchilar</h3>
                         <div class="d-inline-flex text-white">
-                            <p class="m-0 text-uppercase"><Link to={"/"} class="text-white">Home</Link></p>
+                            <p class="m-0 text-uppercase"><Link to={"/"} class="text-white">Bosh sahifa</Link></p>
                             <i class="fa fa-angle-double-right pt-1 px-3"/>
                             <p class="m-0 text-uppercase">Courses</p>
                         </div>
@@ -55,7 +55,8 @@ export const Teacher = () => {
                                 <div className="col-md-6 col-lg-3 text-center team mb-4">
                                     <div className="team-item rounded overflow-hidden mb-2">
                                         <div className="team-img position-relative">
-                                            <img className="img-fluid" src={APP_API.downloadPhoto + item.photoId}
+                                            <img style={{width: "550px", aspectRatio: "3/4"}} className="img-fluid"
+                                                 src={APP_API.downloadPhoto + item.photoId}
                                                  alt="404"/>
                                             <div className="team-social">
                                                 <h6 className={"text-warning mr-5"}>Telefon

@@ -3,6 +3,8 @@ import {GetNews} from "../connection/service/AppService";
 import {APP_API} from "../connection/AppApi";
 import './caru.css'
 import img from "../assets/img/carousel-1.jpg"
+import {Link} from "react-router-dom";
+import {LOG_URL} from "../connection/BaseUrl";
 
 export const Carousel = () => {
     const [news, setNews] = useState([])
@@ -30,9 +32,8 @@ export const Carousel = () => {
                         <div className="carousel-caption d-flex align-items-center justify-content-center">
                             <div className="p-5" style={{width: "100%", maxWidth: "900px"}}>
                                 <h1 className="display-3 text-white mb-md-4">4-maktab</h1>
-                                <h5 className="text-white text-uppercase mb-md-3">kitob tumanidagi eng yaxshi maktablar
-                                    qatorida turuvchi maktablardan biri</h5>
-                                <button className={"btn btn-primary"}>Biz haqimizda</button>
+                                <h5 className="text-white text-uppercase mb-md-3">kitob tumanidagi eng yaxshi maktablardan biri</h5>
+                                <Link to={LOG_URL} className={"btn btn-primary"}>Hisobga kirish</Link>
                             </div>
                         </div>
                     </div>

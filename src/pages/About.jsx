@@ -5,9 +5,23 @@ export const About = () => {
 
     return (
         <>
+            {/*Header Start*/}
+            <div class="container-fluid page-header" style={{marginBottom: "90px"}}>
+                <div class="container">
+                    <div class="d-flex flex-column justify-content-center" style={{minHeight: "300px"}}>
+                        <h3 class="display-4 text-white text-uppercase">Biz haqimida</h3>
+                        <div class="d-inline-flex text-white">
+                            <p class="m-0 text-uppercase"><Link to={"/"} class="text-white">Bosh sahifa</Link></p>
+                            <i class="fa fa-angle-double-right pt-1 px-3"/>
+                            <p class="m-0 text-uppercase">Biz haqimida</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Header End*/}
 
             {/*About Start*/}
-            <div className="container-fluid py-5">
+            <div className="container-fluid py-1">
                 <div className="container py-5">
                     <div className="row align-items-center">
                         <div className="col-lg-5">
@@ -25,8 +39,6 @@ export const About = () => {
                                 ortiq malakali ustoz va murabiyylar sifatli bilim berish uchun harakat qiladi.
                                 Maktabimiz sifatli bilib berishga doim harakat qiladi
                             </p>
-                            <Link to={""} className="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ko'proq
-                                biling </Link>
                         </div>
                     </div>
                 </div>
